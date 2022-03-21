@@ -216,7 +216,7 @@ h4 {
   font-size: 16px;
 }
 
-.bloc-hebergement {
+.bloc-accommodation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -228,14 +228,14 @@ h4 {
   border-radius: 25px;
 }
 
-.bloc-card {
+.bloc-accommodation__card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   height: 100%;
 }
 
-.card-hebergement {
+.card-accommodation {
   height: 200px;
   width: 29%;
   min-width: 230px;
@@ -246,14 +246,14 @@ h4 {
   border-radius: 18px;
 }
 
-.card-image-hebergement {
+.card-accommodation__image {
   height: 60%;
   width: 100%;
   overflow: hidden;
   border-radius: 15px 15px 0px 0px;
 }
 
-.card-hebergement img {
+.card-accommodation img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -265,10 +265,10 @@ h4 {
   transition: all 0.5s ease;
 }
 
-.card-text-hover a:hover {
+.card-text--hover a:hover {
   color: #000;
 }
-.card-body {
+.card-accommodation__body {
   display: flex;
   flex-direction: column;
   height: 35%;
@@ -276,12 +276,12 @@ h4 {
   padding-left: 10px;
 }
 
-.card-title {
+.card-accommodation__title {
   font-size: 16px;
   font-weight: bolder;
 }
 
-.card-core {
+.card-accommodation__core {
   margin-top: 4px;
 }
 
@@ -292,11 +292,11 @@ h4 {
   color: #0065fc;
 }
 
-.etoile-inactive {
+.inactive-star {
   color: #f2f2f2;
 }
 
-.afficher {
+.show-more {
   margin-top: 30px;
   font-weight: bolder;
 }
@@ -312,14 +312,14 @@ aside {
   border-radius: 25px;
 }
 
-.bloc-populaire {
+.bloc-popular {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.card-aside {
+.card-popular {
   width: 100%;
   max-width: 350px;
   margin-top: 30px;
@@ -329,18 +329,18 @@ aside {
   border-radius: 15px;
 }
 
-.card-aside a {
+.card-popular a {
   display: flex;
 }
 
-.card-aside img {
+.card-popular img {
   object-fit: cover;
   height: 130px;
   width: 39%;
   border-radius: 15px 0px 0px 15px;
 }
 
-.card-body-populaire {
+.card-popular__body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -348,13 +348,13 @@ aside {
   padding: 10px 0px 5px 15px;
 }
 
-.chart {
+.chart-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.card-aside:hover {
+.card-popular:hover {
   width: 110%;
   transition: all 0.5s ease;
 }
@@ -371,52 +371,51 @@ aside {
   padding: 6%;
 }
 
-.bloc-activite {
+.bloc-activity {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   margin-top: 25px;
   height: 450px auto;
 }
 
-.card-activite {
+.card-activity {
   width: 300px;
   border-radius: 15px;
   box-shadow: 0px 0px 20px rgb(204, 202, 202);
 }
 
-.card-activite img {
+.card-activity img {
   object-fit: cover;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
 }
 
-.card-activite-1 img {
+.card-activity-1 img {
   height: 390px;
 }
 
-.card-activite-2 img {
+.card-activity-2 img {
   height: 160px;
 }
 
-.card-activite-3 img {
+.card-activity-3 img {
   height: 110px;
 }
 
-.card-activite-4 img {
+.card-activity-4 img {
   height: 390px;
 }
 
-.card-activite-5 img {
+.card-activity-5 img {
   height: 140px;
 }
 
-.card-activite-6 img {
+.card-activity-6 img {
   height: 150px;
 }
 
-.card-activite:hover {
+.card-activity:hover {
   transition: all 0.5s ease-in-out;
   transform: scale(1.04);
   color: #000;
@@ -524,17 +523,17 @@ footer p {
   }
   /****** Section 2 (Bloc 1 - Responsive) ******/
 
-  .bloc-card {
+  .bloc-accommodation__card {
     justify-content: space-around;
   }
 
-  .bloc-hebergement {
+  .bloc-accommodation {
     width: 100%;
     padding: 10px;
     background-color: #ffff;
   }
 
-  .card-hebergement {
+  .card-accommodation {
     width: 100%;
     max-width: 403px;
     padding: 0;
@@ -546,20 +545,20 @@ footer p {
     padding: 10px;
   }
 
-  .bloc-activite {
+  .bloc-activity {
     flex-direction: column;
     align-items: center;
     height: auto;
   }
 
-  .card-activite {
+  .card-activity {
     height: 200px;
     width: 100%;
     max-width: 403px;
     margin-top: 25px;
   }
 
-  .card-activite img {
+  .card-activity img {
     height: 65%;
   }
 
@@ -587,7 +586,7 @@ footer p {
     padding: 0;
   }
 
-  .bloc-hebergement {
+  .bloc-accommodation {
     width: 100%;
     background-color: #fff;
   }
