@@ -1,10 +1,12 @@
 /*****************Polices*****************/
+
 @font-face {
   font-family: "Raleway";
   src: url(../assets/font/Raleway-Medium.ttf);
 }
 
 /***********Main elements**********/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -62,7 +64,7 @@ nav li:hover > a {
   color: #0065fc;
 }
 
-/**************Main****************/
+/************** Main ****************/
 
 /*****Section 1 (search bar) *****/
 section {
@@ -115,7 +117,7 @@ button {
   display: none;
 }
 
-/**********Section 1 (filters)*******/
+/********** Section 1 (filters) *******/
 
 .filters {
   display: flex;
@@ -134,7 +136,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  /* height: 45px; */
   min-width: 52%;
 }
 
@@ -204,7 +205,7 @@ h2 {
   padding-left: 10px;
 }
 
-/*********Section 2 (card)***********/
+/********* Section 2 (card) ***********/
 
 .section_2 {
   display: flex;
@@ -431,7 +432,7 @@ aside {
   width: 300px;
 }
 
-/************* Footer *************************/
+/************* Footer ************/
 
 footer {
   display: flex;
@@ -524,6 +525,7 @@ footer p {
   .filters li {
     margin: 5px;
   }
+
   /****** Section 2 (Bloc 1 - Responsive) ******/
 
   .bloc-accommodation__card {
@@ -542,7 +544,7 @@ footer p {
     padding: 0;
   }
 
-  /********** Section 3 ************/
+  /***** Section 3 (Activity-Responsive) ******/
 
   .section_3 {
     padding: 10px;
@@ -580,6 +582,7 @@ footer p {
     padding-left: 20px;
   }
 }
+
 /*********** Responsive Tablette ***********/
 
 @media screen and (max-width: 992px) {
