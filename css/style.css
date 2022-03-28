@@ -96,13 +96,13 @@ form i {
 }
 
 input[type="search"] {
-  padding: 5px 60px 5px 15px;
+  padding: 5px 50px 5px 15px;
   border: 0;
   font-weight: bold;
   color: black;
 }
 
-input[type="submit"] {
+button {
   height: 44px;
   width: 110px;
   padding: 0px 10px;
@@ -113,7 +113,7 @@ input[type="submit"] {
   border: solid #0065fc;
   border-radius: 0px 12px 12px 0px;
 }
-button {
+.submit__mobile {
   display: none;
 }
 
@@ -379,7 +379,7 @@ aside {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 450px auto;
+  height: auto;
 }
 
 .card-activity {
@@ -494,20 +494,23 @@ footer p {
     padding: 0px 20px 0px 20px;
   }
 
-  input[type="submit"] {
+  button {
+    background-color: #fff;
+    border: #fff;
+  }
+
+  .submit__desktop {
     display: none;
   }
 
-  button {
+  .submit__mobile {
     display: contents;
-    background-color: #0065fc;
-    border: #0065fc;
-    border-radius: 15px;
   }
 
-  button i {
+  .submit__mobile i {
     position: absolute;
-    right: -5px;
+    top: -1.5px;
+    right: -20px;
     color: white;
     background-color: #0065fc;
   }
@@ -519,11 +522,11 @@ footer p {
   .filters ul {
     flex-wrap: wrap;
     height: fit-content;
-    margin: 10px;
+    margin: 10px 0px;
   }
 
   .filters li {
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
   }
 
   /****** Section 2 (Bloc 1 - Responsive) ******/
